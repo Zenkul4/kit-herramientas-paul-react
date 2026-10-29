@@ -1,0 +1,23 @@
+{
+  "name": "kit-paul-react",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest"
+  }
+}

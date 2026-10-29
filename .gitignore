@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.gradle/
+**/build/
+android/local.properties
+.idea/
+*.iml
+android/app/src/main/assets/public/
